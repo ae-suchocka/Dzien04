@@ -10,7 +10,7 @@ namespace StockWatcher.Classes
     {
         public void Update(Stock data)
         {
-            if (data.Name.Equals("APL") && data.Value>=30) 
+            if (data.Name.Equals("APL") && data.Value >= 30)
             {
                 Console.WriteLine("Akcje Apple powyżej 30");
             }
